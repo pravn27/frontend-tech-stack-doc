@@ -10,21 +10,21 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ReactJS",
+  title: "Frontend Tech Docs",
   tagline:
-    "Everything about ReactJS, its reference links & technical documentations",
+    "Everything about Frontend Technologies, its reference links & technical documentations",
   favicon: "/img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://pravn27.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/reactjs-tech-doc/",
+  baseUrl: "/frontend-tech-stack-doc/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "pravn27", // Usually your GitHub org/user name.
-  projectName: "reactjs-tech-doc", // Usually your repo name.
+  projectName: "frontend-tech-stack-doc", // Usually your repo name.
   deploymentBranch: "gh-pages",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -46,7 +46,8 @@ const config = {
         docs: {
           sidebarPath: "./sidebars.js",
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/pravn27/reactjs-tech-doc/tree/master",
+          editUrl:
+            "https://github.com/pravn27/frontend-tech-stack-doc/tree/master",
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +56,8 @@ const config = {
             xslt: true,
           },
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/pravn27/reactjs-tech-doc/tree/master",
+          editUrl:
+            "https://github.com/pravn27/frontend-tech-stack-doc/tree/master",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -85,8 +87,8 @@ const config = {
           //   label: "About VS System",
           // },
           {
-            to: "/docs/category/reactjs-documentations",
-            label: "ReactJS",
+            to: "/docs/category/html--css",
+            label: "Frontend Tech Stack",
             position: "left",
           },
           {
