@@ -111,11 +111,11 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "ReactJS",
+            title: "Frontend Tech Stack",
             items: [
               {
-                label: "ReactJS",
-                to: "/docs/category/reactjs-documentations",
+                label: "HTML & CSS",
+                to: "/docs/category/html--css",
               },
             ],
           },
@@ -133,7 +133,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ReactJS tech docs. Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Frontend tech stack docs. Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
