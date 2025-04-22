@@ -8,4 +8,4 @@ sidebar_position: 1
 
 ## Typescript
 
-    - https://pravn27.github.io/Typescript-tech-doc/docs/category/js-documentations
+    - test
